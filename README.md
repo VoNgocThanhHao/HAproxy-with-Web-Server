@@ -143,6 +143,18 @@ Thoát và lưu lại.
 
 ### Máy 172.20.232.102
 
+Chỉnh sửa file cấu hình của **mysql**:
+
+    sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+
+Tìm đến hàng `bind-address = 127.0.0.1` và thêm dấu `#` vào trước câu để ghi chú nó lại:
+
+![](https://i.imgur.com/gAuBeQ1.png)
+
+Khởi động lại **mysql**:
+
+    sudo systemctl restart mysql
+
 Chỉnh sửa hostname tương tự như trên:
 
     sudo nano /etc/hosts
