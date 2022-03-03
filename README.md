@@ -28,9 +28,9 @@ Thêm vào các dòng bên dưới:
 Cài đặt bộ cân bằng tải HAProxy:
 
     sudo apt-get update
-    >
+>
     sudo apt-get upgrade
-    >
+>
     sudo sudo apt install haproxy
 
 Kiểm tra phiên bản của HAProxy:
