@@ -40,7 +40,7 @@ Kiểm tra phiên bản của HAProxy:
 Cấu hình HAproxy làm bộ cân bằng tải:
 
     sudo nano /etc/haproxy/haproxy.cfg
-
+>
     frontend web-frontend
         bind 172.20.232.9:80
         mode http
